@@ -79,8 +79,8 @@ class SearchBar extends React.Component {
           <input placeholder="Where?" onChange={this.handleLocationChange} />
         </div>
         <div className="SearchBar-submit">
-          {// eslint-disable-line react/jsx-no-target-blank}
-          <a onClick={this.handleSearch}>Let's Go</a>
+          
+          <a onClick={this.handleSearch}>Let's Go</a>{// eslint-disable-line react/jsx-no-target-blank}
         </div>
       </div>
     );
